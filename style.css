@@ -50,3 +50,17 @@ h1{
     background-repeat: no-repeat;
     background-position: left center ;
 }
+#full-stack-experience{
+      border-left: 7px solid;
+      border-image: linear-gradient(rgb(216, 29, 153), rgba(219, 54, 25, 0.671));
+      border-image-slice: 1;
+}
+#web-dev-experience{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, rgb(17, 182, 182));
+    border-image-slice: 1;
+
+}
+footer p{
+    text-align: center;
+}
