@@ -3,12 +3,12 @@ body{
     margin: 0;
 }
 h1{
-    font-size: 50px;
+    font-size: 40px;
 }
 .colourfull-name{
     color: orange;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 100px;
 }
@@ -35,6 +35,18 @@ section{
 .dream-big{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
-    background-position: right bottom;
-    
+    background-position: bottom right ;
+}
+.experience-item{
+    width: 40%;
+    box-shadow: 10px 10px 10px 10px  grey;
+    margin-left: 5%;
+    padding-left: 20px;
+    padding-bottom: 80px;
+    border-radius: 5px;
+}
+.experiences{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left center ;
 }
